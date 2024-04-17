@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/sa3astore/static/css/main.4403ff09.css",
+    "main.js": "/sa3astore/static/js/main.b09f02b5.js",
+    "static/media/yed.jpg": "/sa3astore/static/media/yed.e74cbd142f548b3663b3.jpg",
+    "static/media/yed2.jpg": "/sa3astore/static/media/yed2.35dce24a9aa869080785.jpg",
+    "static/media/aa.jpg": "/sa3astore/static/media/aa.e0c728cedf153a7c3cfb.jpg",
+    "static/media/1-8.jpg": "/sa3astore/static/media/1-8.7b5b58f806e5b00a43a4.jpg",
+    "static/media/1.jpg": "/sa3astore/static/media/1.141044774fa7e1333127.jpg",
+    "static/media/1-1.jpg": "/sa3astore/static/media/1-1.17bdab499a08c6b08aba.jpg",
+    "static/media/22.jpg": "/sa3astore/static/media/22.2b76a4116bce96c902d8.jpg",
+    "static/media/1-5.jpg": "/sa3astore/static/media/1-5.a7070f792c9b3ee15e53.jpg",
+    "static/media/111.jpg": "/sa3astore/static/media/111.bdc79445af0c033fbc5c.jpg",
+    "static/media/1-7.jpg": "/sa3astore/static/media/1-7.75fd5ed9499896919ea2.jpg",
+    "static/media/444.jpg": "/sa3astore/static/media/444.5c5a33cc7c0ee81aeab0.jpg",
+    "static/media/333.jpg": "/sa3astore/static/media/333.e1e6e779868ee2833bbf.jpg",
+    "static/media/555.jpg": "/sa3astore/static/media/555.c2c0b4e05f7e9ad0da33.jpg",
+    "static/media/222.jpg": "/sa3astore/static/media/222.b41da4e178e6f5956b6a.jpg",
+    "static/media/couch.svg": "/sa3astore/static/media/couch.b480a4367a460b9e4c0b3a7d6d8833ce.svg",
+    "static/media/table.svg": "/sa3astore/static/media/table.f60069981a6936c22a78446d783dceab.svg",
+    "static/media/kitchen.svg": "/sa3astore/static/media/kitchen.6c15e00a788a594f521f290d9ef10b96.svg",
+    "static/media/satisfait.png": "/sa3astore/static/media/satisfait.49a43fdb5ef905a68904.png",
+    "static/media/desk.svg": "/sa3astore/static/media/desk.8366d68720c9758d8e272a5c1c617f36.svg",
+    "static/media/garantie.svg": "/sa3astore/static/media/garantie.cc69451f0aa6b6529c8cc7bafe11aa90.svg",
+    "static/media/laivraison.svg": "/sa3astore/static/media/laivraison.1919ca1e6945abb99463f23620cf25a4.svg",
+    "index.html": "/sa3astore/index.html",
+    "main.4403ff09.css.map": "/sa3astore/static/css/main.4403ff09.css.map",
+    "main.b09f02b5.js.map": "/sa3astore/static/js/main.b09f02b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4403ff09.css",
+    "static/js/main.b09f02b5.js"
+  ]
+}
