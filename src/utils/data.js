@@ -92,7 +92,7 @@ export const itens = [
   },
   {
     id: 8,
-    title: "ICONIC LINK GOLD",
+    title: "ICONIC LINK",
     image: Produto8,
     priceIni: "499,00",
     priceFin: "299,99",
@@ -101,7 +101,7 @@ export const itens = [
   },
   {
     id: 9,
-    title: "ICONIC LINK GOLD",
+    title: "ICONIC LINK",
     image: Produto9,
     priceIni: "499,00",
     priceFin: "299,99",
@@ -110,7 +110,7 @@ export const itens = [
   },
   {
     id: 10,
-    title: "ICONIC LINK GOLD",
+    title: "ICONIC LINK",
     image: Produto10,
     priceIni: "499,00",
     priceFin: "299,99",
