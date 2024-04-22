@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BlackFriday from "../../assets/productHamza/ADShamza/yed.jpg";
+import BlackFriday from "../../assets/productHamza/ADShamza/firstimage.jpeg";
 import { Col, Container, Row } from 'react-bootstrap';
 export default function Widget2() {
   return (

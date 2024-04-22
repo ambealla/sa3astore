@@ -5,6 +5,9 @@ import Produto4 from "../assets/productHamza/1-8.jpg";
 import Produto5 from "../assets/productHamza/1.jpg";
 import Produto6 from "../assets/productHamza/22.jpg";
 import Produto7 from "../assets/productHamza/aa.jpg";
+import Produto8 from "../assets/productHamza/2.webp";
+import Produto9 from "../assets/productHamza/3.webp";
+import Produto10 from "../assets/productHamza/1-9.png";
 
 import Slide6 from "../assets/productHamza/ADShamza/111.jpg";
 import Slide2 from "../assets/productHamza/ADShamza/222.jpg";
@@ -82,6 +85,33 @@ export const itens = [
     id: 7,
     title: "ICONIC LINK GOLD",
     image: Produto7,
+    priceIni: "499,00",
+    priceFin: "299,99",
+    description:
+      "Fabricada com materias de qualidade superior, tem puxadores embutidos em alumínio, dobradiças metálicas e gavetas com corrediças de metal. Além de pés em madeira, muito sofisticados e resistentes.",
+  },
+  {
+    id: 8,
+    title: "ICONIC LINK GOLD",
+    image: Produto8,
+    priceIni: "499,00",
+    priceFin: "299,99",
+    description:
+      "Fabricada com materias de qualidade superior, tem puxadores embutidos em alumínio, dobradiças metálicas e gavetas com corrediças de metal. Além de pés em madeira, muito sofisticados e resistentes.",
+  },
+  {
+    id: 9,
+    title: "ICONIC LINK GOLD",
+    image: Produto9,
+    priceIni: "499,00",
+    priceFin: "299,99",
+    description:
+      "Fabricada com materias de qualidade superior, tem puxadores embutidos em alumínio, dobradiças metálicas e gavetas com corrediças de metal. Além de pés em madeira, muito sofisticados e resistentes.",
+  },
+  {
+    id: 10,
+    title: "ICONIC LINK GOLD",
+    image: Produto10,
     priceIni: "499,00",
     priceFin: "299,99",
     description:

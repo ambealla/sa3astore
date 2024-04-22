@@ -24,9 +24,9 @@ export default function Menu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='text-center justify-content-end'>
           <Nav className="justify-content-center">
-            <Nav.Link href="/">Home</Nav.Link>
+           {/* <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#Product">Product</Nav.Link>
-            <Nav.Link href="#Info">Info</Nav.Link>
+          <Nav.Link href="#Info">Info</Nav.Link>*/}
             <Button  style={{margin :"15px", backgroundColor:"white", color:"#198754"}} onClick={handleWhatsAppClick}>Contact via WhatsApp</Button>
       
         

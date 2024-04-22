@@ -19,21 +19,21 @@ export default function ModalContact(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Demander votre Watch Maintenat 
+          Demander votre Montre Maintenat 
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className="modal text-center d-block p-5">
         <form  action="" method="get" onSubmit="return ConfMensage();">
           <div class="input-group mb-3">
-            <label class="input-group-prepend mx-2"  id="nome inputGroup-sizing-default">Nome</label>
+            <label class="input-group-prepend mx-2 firstImprission"  id="nome inputGroup-sizing-default">Nome</label>
             <input type="text" class="form-control" aria-describedby="inputGroup-sizing-default" required/>
           </div>
           <div class="input-group mb-3">
-            <label class="input-group-prepend mx-2"  id="inputGroup-sizing-default">E-mail</label>
+            <label class="input-group-prepend mx-2 firstImprission"  id="inputGroup-sizing-default">E-mail</label>
             <input type="email" class="form-control" aria-describedby="inputGroup-sizing-default" required/>
           </div>
           <div class="input-group mb-3">
-            <label class="input-group-prepend mx-2"  id="inputGroup-sizing-default">Telefone</label>
+            <label class="input-group-prepend mx-2 firstImprission"  id="inputGroup-sizing-default">TelePhone</label>
             <input type="text" class="form-control" aria-describedby="inputGroup-sizing-default"/>
           </div>
           <div class="input-group mb-3">

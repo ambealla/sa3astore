@@ -54,12 +54,22 @@ const ContactForm = () => {
   };
 
   return (
+    <div>
+
+  
+    <Container>
+  <Row style={{}}>
+  <div className="col p-3 p-lg-4 firstImprission"  style={{margin:"20px", fontSize:"140%",display :"flex", justifyContent:"center", alignContent:"center" , alignItems:"center",color:"#198754"}} > 
+    Demander votre Montre
+    </div> 
+  </Row>
+</Container>
     <Container>
       <Row>
         <Col md={6} className="mx-auto">
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className ="m-4" controlId="formName">
-              <Form.Label>Nom</Form.Label>
+              <Form.Label className='firstImprission'  style={{color:"#198754"}}>Nom</Form.Label>
               <Form.Control
                 type="text"
                 name="from_name"
@@ -69,7 +79,7 @@ const ContactForm = () => {
               />
             </Form.Group>
             <Form.Group className ="m-4" controlId="formProductId">
-              <Form.Label>numero de produit</Form.Label>
+              <Form.Label  className='firstImprission'  style={{color:"#198754"}}>Numéro de produit</Form.Label>
             
                <Form.Select  name="form_produit"
                 value={formData.form_produit}
@@ -83,10 +93,15 @@ const ContactForm = () => {
     <option value="5">5</option>
     <option value="6">6</option>
     <option value="7">7</option>
+    
+    
+    <option value="5">8</option>
+    <option value="6">9</option>
+    <option value="7">10</option>
   </Form.Select>
             </Form.Group>
             <Form.Group className ="m-4" controlId="formPhone">
-              <Form.Label>numero de telephone</Form.Label>
+              <Form.Label  className='firstImprission'  style={{color:"#198754"}}>Numéro de Téléphone</Form.Label>
               <Form.Control
                 type="tel"
                 name="form_number"
@@ -96,7 +111,7 @@ const ContactForm = () => {
               />
             </Form.Group>
             <Form.Group className ="m-4" controlId="formPhone">
-              <Form.Label>la ville</Form.Label>
+              <Form.Label  className='firstImprission'  style={{color:"#198754"}}>La ville</Form.Label>
               <Form.Control
                 type="text"
                 name="from_email"
@@ -107,14 +122,15 @@ const ContactForm = () => {
             </Form.Group>
            
    
-            <div style={{width: "100%", display:"flex",margin:"20px",alignItems: "Center"}}>
-              <Button style={{backgroundColor:"#198754"}} type="submit" onSubmit={sendEmail}> 
+            <div className='m-4' style={{ display:"flex",margin:"20px",alignItems: "Center", justifyContent:"center"}}>
+              <Button className='btnShadow' style={{backgroundColor:"#198754", width:"-webkit-fill-available",}} type="submit" onSubmit={sendEmail}> 
               Commander
             </Button></div>
           </Form>
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 
