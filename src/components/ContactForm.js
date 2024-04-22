@@ -59,7 +59,7 @@ const ContactForm = () => {
   
     <Container>
   <Row style={{}}>
-  <div className="col p-3 p-lg-4 firstImprission"  style={{margin:"20px", fontSize:"140%",display :"flex", justifyContent:"center", alignContent:"center" , alignItems:"center",color:"#198754"}} > 
+  <div className="col p-3 p-lg-4 firstImprission"  style={{margin:"20px", fontSize:"170%",display :"flex", justifyContent:"center", alignContent:"center" , alignItems:"center",color:"#198754"}} > 
     Demander votre Montre
     </div> 
   </Row>
@@ -71,6 +71,7 @@ const ContactForm = () => {
             <Form.Group className ="m-4" controlId="formName">
               <Form.Label className='firstImprission'  style={{color:"#198754"}}>Nom</Form.Label>
               <Form.Control
+              style={{borderColor:"#198754", border:"2px solid #198754"}}
                 type="text"
                 name="from_name"
                 value={formData.name}
@@ -82,6 +83,8 @@ const ContactForm = () => {
               <Form.Label  className='firstImprission'  style={{color:"#198754"}}>Numéro de produit</Form.Label>
             
                <Form.Select  name="form_produit"
+                style={{borderColor:"#198754", border:"2px solid #198754"}}
+              
                 value={formData.form_produit}
                 onChange={handleChange}
                 required aria-label="Default select example">
@@ -103,6 +106,8 @@ const ContactForm = () => {
             <Form.Group className ="m-4" controlId="formPhone">
               <Form.Label  className='firstImprission'  style={{color:"#198754"}}>Numéro de Téléphone</Form.Label>
               <Form.Control
+               style={{borderColor:"#198754", border:"2px solid #198754"}}
+               
                 type="tel"
                 name="form_number"
                 value={formData.phone}
@@ -113,6 +118,8 @@ const ContactForm = () => {
             <Form.Group className ="m-4" controlId="formPhone">
               <Form.Label  className='firstImprission'  style={{color:"#198754"}}>La ville</Form.Label>
               <Form.Control
+               style={{borderColor:"#198754", border:"2px solid #198754"}}
+               
                 type="text"
                 name="from_email"
                 value={formData.from_email}
